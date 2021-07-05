@@ -1,0 +1,18 @@
+# Política de privacidade InFit
+
+1. Sobre a coleta de dados
+  O aplicativo têm duas maneiras de coletar os dados do usuário: (a) por iniciativa do cliente (ao efetuar o cadastro e fornecer as informações solicitadas pelo aplicativo); (b) pelo próprio aplicativo, a fim de garantir o bom funcionamento.
+  No primeiro caso, o usuário fornece informações e é o responsável pela veracidade das mesmas. O tratamento das informações ocorre no aplicativo a fim de garantir o funcionamento completo do que é oferecido. Não há divulgação ou compartilhamento dessas informações. Caso o usuário utilize uma versão não oficial do alicativo, é inteiramente responsável por informações que possam vir a se divulgadas sem o seu prévio consentimento.
+  No segundo, as informações coletadas são: estabilidade da conexão com a internet, versão do Android e modelo do celular do usuário, e são utulizadas somente para fins técnicos, sem o compartilhamento ou coleta de informações não especificadas nesse termo.
+  O InFit precisa dessas informações para funcionar, ou seja, o usuário deve aceitar os termos para fazer uso da aplicação.
+  
+2. Como os dados são protegidos
+  As informações fornecidas pelo usuário cadastrado são protegidas pela senha por ele criada, que não é armazenada em nosso banco de dados. Os dados são protegidos por um RESH criado a partir da proteção de senha do usuário. Os dados, então, não são acessados pelos desenvolvedores ou pelo aplicativo, mas tratados para que o funcionamento correto aconteça.
+  No caso dos usuários convidados, as informações coletadas (estabilidade da conexão com a internet, versão do Android e modelo do celular do usuário) são armazenadas em um banco de dados protegido por criptografia, e também não são acessadas diretamente pelos desenvolvedores. 
+  Nenhuma informação coletada é divulgada ou compartilhada.
+  
+3. Exclusão de conta e permanência de dados
+  A exclusão da conta deleta permanentemente os dados do usuário do banco de dados do InFit. Dessa forma, não é possível recuperar ou acessar dados de uma conta deletada pelo usuário. Ao efetuar o procedimento, o cliente passa por etapas de confirmação que garantem que aquelas informações serão apagadas por uma iniciativa do usuário, e não devem ser acessadas posteriormente.
+  
+4. O aplicativo salva dados no celular do usuário?
+  Não. O aplicativo, por padrão e em sua versão oficial, não salva nenhum tipo de informação no celular do usuário.
