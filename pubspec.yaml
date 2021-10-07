@@ -1,0 +1,219 @@
+name: testeteladelogin
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^2.1.0
+  flutter_native_splash: ^1.2.1
+  flutter_launcher_icons: ^0.9.2
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  simple_animations: ^3.1.1
+  circular_countdown_timer: ^0.2.0
+  font_awesome_flutter: ^9.1.0
+  image_picker: ^0.8.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: "assets/imagens/gerais/logo.png"
+  android: true
+  ios: true
+
+flutter_icons:  
+  image_path: "assets/imagens/gerais/logo.png"
+  android: true
+  ios: true
+
+# The following section is specific to Flutter.
+flutter:
+  assets:
+
+    - assets/imagens/exercicios/alongamento/alongamento1.gif
+    - assets/imagens/exercicios/alongamento/alongamento2.gif
+    - assets/imagens/exercicios/alongamento/alongamento3.gif
+    - assets/imagens/exercicios/alongamento/alongamento4.gif
+    - assets/imagens/exercicios/alongamento/alongamento5.gif
+    - assets/imagens/exercicios/alongamento/alongamento6.gif
+
+    - assets/imagens/exercicios/perna/perna1.gif
+    - assets/imagens/exercicios/perna/perna2.gif
+    - assets/imagens/exercicios/perna/perna3.gif
+    - assets/imagens/exercicios/perna/perna4.gif
+    - assets/imagens/exercicios/perna/perna5.gif
+    - assets/imagens/exercicios/perna/perna6.gif
+
+    - assets/imagens/exercicios/costa/costa1.gif
+    - assets/imagens/exercicios/costa/costa2.gif
+    - assets/imagens/exercicios/costa/costa3.gif
+    - assets/imagens/exercicios/costa/costa4.gif
+    - assets/imagens/exercicios/costa/costa5.gif
+    - assets/imagens/exercicios/costa/costa6.gif
+
+    - assets/imagens/exercicios/peito/peito1.gif
+    - assets/imagens/exercicios/peito/peito2.gif
+    - assets/imagens/exercicios/peito/peito3.gif
+    - assets/imagens/exercicios/peito/peito4.gif
+    - assets/imagens/exercicios/peito/peito5.gif
+    - assets/imagens/exercicios/peito/peito6.gif
+
+    - assets/imagens/exercicios/abdomen/abdomen1.gif
+    - assets/imagens/exercicios/abdomen/abdomen2.gif
+    - assets/imagens/exercicios/abdomen/abdomen3.gif
+    - assets/imagens/exercicios/abdomen/abdomen4.gif
+    - assets/imagens/exercicios/abdomen/abdomen5.gif
+    - assets/imagens/exercicios/abdomen/abdomen6.gif
+
+    - assets/imagens/exercicios/braco/braco1.gif
+    - assets/imagens/exercicios/braco/braco2.gif
+    - assets/imagens/exercicios/braco/braco3.gif
+    - assets/imagens/exercicios/braco/braco4.gif
+    - assets/imagens/exercicios/braco/braco5.gif
+    - assets/imagens/exercicios/braco/braco6.gif
+
+    # IMAGENS GERAIS DO APLICATIVO
+    - assets/imagens/gerais/logo.png
+    - assets/imagens/gerais/fouet.jpg
+    - assets/imagens/gerais/nutricionistas.jpg
+    - assets/imagens/perfil/profile.jpg
+    - assets/imagens/menu/alimentos.png
+    - assets/imagens/menu/exercicio.png
+    - assets/imagens/gerais/perfil.png
+    # IMAGENS EXERCÍCIOS
+    - assets/imagens/teste/braço.png
+    - assets/imagens/teste/peito.png
+    - assets/imagens/teste/perna.png
+    - assets/imagens/teste/abdomen.png
+    - assets/imagens/teste/costa.png
+    - assets/imagens/teste/alongamento.png
+    - assets/imagens/gerais/logo.png
+
+    # IMAGENS NUTRICIONISTA
+    - assets/imagens/nutricionistas/aleluglio.jpeg
+    - assets/imagens/nutricionistas/fernanda.jpeg
+    - assets/imagens/nutricionistas/nutrifer.jpeg
+    - assets/imagens/nutricionistas/nutritahim.jpeg
+    - assets/imagens/nutricionistas/papodenutri.jpeg
+    - assets/imagens/nutricionistas/patricia.jpeg
+    - assets/imagens/nutricionistas/sophie.jpeg
+
+    # IMAGENS ALIMENTAÇÃO
+    - assets/imagens/alimentacao/fruit_foods_2.jpg
+    - assets/imagens/alimentacao/food_smoothie_2.jpg #bebidas
+    - assets/imagens/alimentacao/vegan_food_2.jpg #veganas
+    - assets/imagens/alimentacao/salty_food_2.jpg #salgadas
+    - assets/imagens/alimentacao/vegan_food.jpg #low carb
+    - assets/imagens/alimentacao/sweet_food.jpg #doces
+
+    #salgadas
+    - assets/imagens/salgadas/receita-pao-de-queijo-frigideira.jpg
+    - assets/imagens/salgadas/macarrao_milanesa.jpg
+    - assets/imagens/salgadas/pizzaFrigideira.jpg
+    - assets/imagens/salgadas/salada.jpeg
+    - assets/imagens/salgadas/fricasse_frango.jpg
+    - assets/imagens/salgadas/hamburguer2.jpg
+
+    #com frutas
+    - assets/imagens/comFrutas/banana.jpg
+    - assets/imagens/comFrutas/abacaxi.jpg
+    - assets/imagens/comFrutas/abacate.jpg
+    - assets/imagens/comFrutas/kiwi.jpg
+    - assets/imagens/comFrutas/melancia.jpg
+    - assets/imagens/comFrutas/morango.jpg
+
+    #com frutas - abacate
+    - assets/imagens/comFrutas/comFrutasAbacate/guacamole-fit.jpg
+    - assets/imagens/comFrutas/comFrutasAbacate/salada-com-abacate.jpg
+    - assets/imagens/comFrutas/comFrutasAbacate/mousse-de-abacate.jpeg
+    - assets/imagens/comFrutas/comFrutasAbacate/abacate-recheado.jpg
+    - assets/imagens/comFrutas/comFrutasAbacate/brigadeiro-de-abacate.jpg
+    - assets/imagens/comFrutas/comFrutasAbacate/sorvete-de-abacate.png
+    # com frutas - morango
+    - assets/imagens/comFrutas/comFrutasMorango/creme-de-aveia-e-morango.jpg
+    - assets/imagens/comFrutas/comFrutasMorango/smoothie-de-morango.jpeg
+    - assets/imagens/comFrutas/comFrutasMorango/panqueca-com-morango.jpg
+    - assets/imagens/comFrutas/comFrutasMorango/salada-com-morango.jpg
+    - assets/imagens/comFrutas/comFrutasMorango/beijinho-de-morango.jpg
+    - assets/imagens/comFrutas/comFrutasMorango/geleia-de-morango.jpg
+
+    # com frutas - kiwi
+    - assets/imagens/comFrutas/comFrutasKiwi/limonada-de-kiwi.jpeg
+    - assets/imagens/comFrutas/comFrutasKiwi/panqueca-com-kiwi.jpg
+    - assets/imagens/comFrutas/comFrutasKiwi/geleia-de-kiwi.jpg
+    - assets/imagens/comFrutas/comFrutasKiwi/suco-kiwi.jpeg
+    - assets/imagens/comFrutas/comFrutasKiwi/picole-de-kiwi.jpg
+    - assets/imagens/comFrutas/comFrutasKiwi/caipirinha-de-kiwi.jpg
+
+    # com frutas - melancia
+    - assets/imagens/comFrutas/comFrutasMelancia/geleia-de-melancia.jpg
+    - assets/imagens/comFrutas/comFrutasMelancia/granita-de-melancia.jpg
+    - assets/imagens/comFrutas/comFrutasMelancia/molho-de-melancia.jpg
+    - assets/imagens/comFrutas/comFrutasMelancia/salada-com-melancia.jpg
+    - assets/imagens/comFrutas/comFrutasMelancia/suco-de-melancia.jpg
+    - assets/imagens/comFrutas/comFrutasMelancia/picole-de-melancia.jpg
+
+    #com frutas - banana
+    - assets/imagens/comFrutas/comFrutasBanana/banana_com_graos.jpg
+    - assets/imagens/comFrutas/comFrutasBanana/bolo_banana.jpg
+    - assets/imagens/comFrutas/comFrutasBanana/brigadeiro_banana.jpg
+    - assets/imagens/comFrutas/comFrutasBanana/cookie_banana.jpg
+    - assets/imagens/comFrutas/comFrutasBanana/sorvete_banana.jpg
+    - assets/imagens/comFrutas/comFrutasBanana/panqueca_banana.jpg
+
+    #com frutas - abacaxi
+    - assets/imagens/comFrutas/comFrutasAbacaxi/salada-com-abacaxi.jpg
+    - assets/imagens/comFrutas/comFrutasAbacaxi/espetinho_abacaxi.jpg
+    - assets/imagens/comFrutas/comFrutasAbacaxi/bolo_de_abacaxi.jpg
+    - assets/imagens/comFrutas/comFrutasAbacaxi/mousse-de-abacaxi.jpg
+    - assets/imagens/comFrutas/comFrutasAbacaxi/peixe_com_abacaxi.jpg
+    - assets/imagens/comFrutas/comFrutasAbacaxi/sorvete-de-abacaxi.jpeg
+
+    #bebidas
+    - assets/imagens/bebidas/vitamina-manga-banana.jpg
+    - assets/imagens/bebidas/vitamina-laranja.jpg
+    - assets/imagens/bebidas/abacate-e-hortela.jpeg
+    - assets/imagens/bebidas/banana-morango-aveia.jpg
+    - assets/imagens/bebidas/banana-amendoim.jpeg
+    - assets/imagens/bebidas/acai.jpg
+
+    # low carb
+    - assets/imagens/lowCarb/low-carb-espaguete.jpg
+    - assets/imagens/lowCarb/low-carb-farofa.jpeg
+    - assets/imagens/lowCarb/low-carb-panacota.jpg
+    - assets/imagens/lowCarb/low-carb-quiche.jpeg
+    - assets/imagens/lowCarb/low-carb-risoto.jpeg
+    - assets/imagens/lowCarb/low-carb-wrap-de-couve.jpg
+
+    # veganas
+    - assets/imagens/veganas/bolo-chocolate-vegano.jpg
+    - assets/imagens/veganas/toffe-cenoura-maca.jpg
+    - assets/imagens/veganas/espetinho-vegano.jpg
+    - assets/imagens/veganas/cheddar-vegano.jpg
+    - assets/imagens/veganas/hamburguer-vegano.jpg
+    - assets/imagens/veganas/ratatouille-vegano.jpg
+
+    # doces
+    - assets/imagens/doces/beijinho-coco.jpeg
+    - assets/imagens/doces/docinho-tamara-e-coco.jpg
+    - assets/imagens/doces/brownie-batata-doce.jpg
+    - assets/imagens/doces/pao-de-mel.jpg
+    - assets/imagens/doces/pudim-de-chia.jpg
+    - assets/imagens/doces/pudim-de-leite.jpg
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
